@@ -31,10 +31,12 @@ Enemy.prototype.render = function() {
 // a handleInput() method.
 var Player = function(){
     this.sprite = 'images/char-boy.png';
+    this.x = 175;
+    this.y = 0;
 };
 
 Player.prototype.update = function(dt){
-    this.x *= dt;
+    this.x *= 0;
 };
 
 //draw the player to the screen
